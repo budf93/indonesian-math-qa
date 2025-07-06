@@ -1,0 +1,31 @@
+# Python / Backend
+# ----------------
+# Ignore the virtual environment folder
+venv/
+__pycache__/
+*.pyc
+
+# IDE / OS specific
+# -----------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Node.js / Frontend
+# --------------------
+# Ignore the massive node_modules folder
+node_modules/
+dist/
+dist-ssr/
+*.log
+.env
+.env.*
+
+# Large Model Files & Zips
+# --------------------------
+# Do not upload large model files to Git
+*.gguf
+*.zip
+# Ignore model since we're using the ones in HuggingFace
+model/
