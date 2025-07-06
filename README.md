@@ -1,14 +1,10 @@
-Of course. A good `README.md` file is crucial for any project. It serves as the main entry point and instruction manual for you (in the future) and anyone else who wants to run your application.
-
-Here is a complete tutorial formatted in Markdown that you can copy and paste directly into your `README.md` file in the root of your project.
-
------
-
 # Indonesian Math QA with Fine-Tuned LLM
 
 This is a full-stack web application that uses a custom fine-tuned Large Language Model to answer math questions with step-by-step reasoning in Bahasa Indonesia.
 
-The project leverages the `unsloth/DeepSeek-R1-0528-Qwen3-8B` model, fine-tuned using GRPO (Generative Rejected-based Policy Optimization) to force its internal reasoning process into Indonesian. The model is served locally with Ollama and accessed via a FastAPI backend and a Vue.js frontend.
+The project leverages the `unsloth/DeepSeek-R1-0528-Qwen3-8B` model, fine-tuned using Group Relative Policy Optimization (GRPO) to force its internal reasoning process into Indonesian. The model is served locally with Ollama and accessed via a FastAPI backend and a Vue.js frontend.
+
+Credits to 
 
 ## Tech Stack
 
@@ -123,3 +119,11 @@ npm run dev
 
 Once all three components are running, open your web browser and go to:
 **[http://localhost:5173](https://www.google.com/search?q=http://localhost:5173)**
+
+## Credits and Acknowledgements
+
+This project stands on the shoulders of giants. Special thanks go to the team at Unsloth AI for their incredible work in making high-performance fine-tuning accessible.
+
+The core fine-tuning script, including the GRPO implementation, memory optimization techniques, and reward functions, was heavily based on their official Colab notebook. Please support their work by starring their [GitHub repository](https://github.com/unslothai/unsloth).
+
+- **Source Notebook:** [DeepSeek_R1_0528_Qwen3_(8B)_GRPO.ipynb](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/DeepSeek_R1_0528_Qwen3_(8B)_GRPO.ipynb)
