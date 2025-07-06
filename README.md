@@ -4,8 +4,6 @@ This is a full-stack web application that uses a custom fine-tuned Large Languag
 
 The project leverages the `unsloth/DeepSeek-R1-0528-Qwen3-8B` model, fine-tuned using Group Relative Policy Optimization (GRPO) to force its internal reasoning process into Indonesian. The model is served locally with Ollama and accessed via a FastAPI backend and a Vue.js frontend.
 
-Credits to 
-
 ## Tech Stack
 
   * **Frontend**: Vue.js, Vite, Axios, KaTeX
