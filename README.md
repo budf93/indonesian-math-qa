@@ -33,7 +33,7 @@ Follow these steps to get the project running on your local machine.
 First, clone the project from GitHub to your local machine:
 
 ```bash
-git clone https://github.com/your-username/indonesian-math-qa.git
+git clone https://github.com/budf93/indonesian-math-qa.git
 cd indonesian-math-qa
 ```
 
